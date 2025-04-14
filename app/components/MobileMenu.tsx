@@ -51,8 +51,8 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Solidus Digital</span>
           <img
-            className="h-8 w-auto"
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-04-14%20at%2014.15.43-LRZzJmj9a2LhsRtAQ9z4DtEaDBuAFx.jpeg"
+            className="h-14 w-auto"
+            src="/sdigital-logo.png"
             alt="Solidus Digital Logo"
           />
         </a>
