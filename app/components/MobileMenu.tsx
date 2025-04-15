@@ -41,7 +41,8 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 
   return (
     <motion.div
-      className="fixed inset-0 z-50 bg-background/95 backdrop-blur-md flex flex-col overflow-y-auto"
+      className="fixed inset-0 bg-background/95 backdrop-blur-md flex flex-col overflow-y-auto"
+      style={{ zIndex: 100 }}
       initial={{ x: "100%" }}
       animate={{ x: 0 }}
       exit={{ x: "100%" }}

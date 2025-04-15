@@ -20,6 +20,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Solidus Digital",
+            "url": "https://www.solidus-digital.com/",
+            "logo": "https://www.solidus-digital.com/sdigital-logo.png",
+            "sameAs": [
+              "https://www.linkedin.com/company/solidus-digital"
+            ]
+          })
+        }} />
+      </head>
       <body className={`${inter.className} min-h-screen bg-background text-foreground`}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} forcedTheme="dark">
           <Header />
