@@ -12,7 +12,7 @@ const projects = [
     description: "Implementação completa de e-commerce na plataforma VTEX IO",
     imageUrl: "/logo-wepink.jpg",
     linkWebSite: 'https://www.wepink.com.br/',
-    category: "E-commerce",
+    agency: "Seri.e Design",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     description: "Otimização de performance e experiência do usuário em VTEX IO",
     imageUrl: "/logo-electrolux-2.png",
     linkWebSite: 'https://projeta.electrolux.com.br/login-user',
-    category: "E-commerce",
+    agency: "Kron Digital",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     description: "Implementação completa de e-commerce na plataforma VTEX IO",
     imageUrl: "/logo-cicloassuncao.jpg",
     linkWebSite: "https://www.cicloassuncao.com.br/",
-    category: "E-commerce",
+    agency: "Seri.e Design",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const projects = [
     description: "Migração de plataforma e redesign completo em VTEX IO",
     imageUrl: "/logo-ferracini.png",
     linkWebSite: 'https://www.ferracini.com.br/',
-    category: "E-commerce",
+    agency: "Seri.e Design",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const projects = [
     description: "Implementação de PWA e melhorias de SEO em VTEX IO",
     imageUrl: "/logo-trousseau.png",
     linkWebSite: "https://www.trousseau.com.br/",
-    category: "E-commerce",
+    agency: "Enext Company",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const projects = [
     description: "Desenvolvimento de componentes personalizados em VTEX CMS",
     imageUrl: "/logo-sephora.png",
     linkWebSite: "https://www.sephora.com.br/",
-    category: "E-commerce",
+    agency: "Enext Company",
   },
 ]
 
@@ -197,11 +197,11 @@ function CaseCard({ project, index }: { project: (typeof projects)[0]; index: nu
             objectFit="cover"
             className="transition-transform duration-300 ease-out group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/55 to-transparent flex items-end">
             <div className="p-4 sm:p-6 transform transition-transform duration-200 group-hover:translate-y-0">
-              <div className="text-sm font-medium text-primary mb-1">{project.category}</div>
               <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
               <p className="text-gray-300 text-sm">{project.description}</p>
+              <div className="text-sm font-semibold text-white mt-[3px]">Atuação via Agência {project.agency}</div>
             </div>
           </div>
         </a>
