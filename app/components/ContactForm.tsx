@@ -34,16 +34,29 @@ export default function ContactForm() {
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
+  const onSubmit = async (values: z.infer<typeof formSchema>) => {
     setIsSubmitting(true)
-    // Simulate API call
-    setTimeout(() => {
-      console.log(values)
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(values),
+      })
+  
+      const data = await res.json()
+  
+      if (data.success) {
+        alert("Mensagem enviada com sucesso!")
+        form.reset()
+      } else {
+        alert(`Erro ao enviar: ${data.error}`)
+      }
+    } catch (err) {
+      alert("Erro ao enviar e-mail")
+    } finally {
       setIsSubmitting(false)
-      form.reset()
-      alert("Obrigado pela sua mensagem. Entraremos em contato em breve!")
-    }, 2000)
-  }
+    }
+  }  
 
   return (
     <section id="contato" className="bg-background py-20" ref={ref}>

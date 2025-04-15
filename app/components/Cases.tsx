@@ -16,14 +16,6 @@ const projects = [
   },
   {
     id: 2,
-    title: "Porto Seguro",
-    description: "Implementação de um sistema de leilão, utilizando serviços Back-end em VTEX IO",
-    imageUrl: "/logo-porto-2.png",
-    linkWebSite: "http://portoarremate.com.br/",
-    category: "E-commerce",
-  },
-  {
-    id: 3,
     title: "Electrolux",
     description: "Otimização de performance e experiência do usuário em VTEX IO",
     imageUrl: "/logo-electrolux-2.png",
@@ -31,15 +23,7 @@ const projects = [
     category: "E-commerce",
   },
   {
-    id: 4,
-    title: "Hugo Boss",
-    description: "Evolução do produto, e novas features implementadas em VTEX IO",
-    imageUrl: "/logo-hugoboss.jpg",
-    linkWebSite: 'https://www.hugoboss.com.br/boss',
-    category: "E-commerce",
-  },
-  {
-    id: 5,
+    id: 3,
     title: "Ciclo Assunção",
     description: "Implementação completa de e-commerce na plataforma VTEX IO",
     imageUrl: "/logo-cicloassuncao.jpg",
@@ -47,15 +31,7 @@ const projects = [
     category: "E-commerce",
   },
   {
-    id: 6,
-    title: "Emilio Atacado",
-    description: "Desenvolvimento de B2B com catálogo personalizado em VTEX",
-    imageUrl: "/logo-emilio.jpg",
-    linkWebSite: "https://www.emilio.com.br/",
-    category: "E-commerce",
-  },
-  {
-    id: 7,
+    id: 4,
     title: "Ferracini",
     description: "Migração de plataforma e redesign completo em VTEX IO",
     imageUrl: "/logo-ferracini.png",
@@ -63,7 +39,7 @@ const projects = [
     category: "E-commerce",
   },
   {
-    id: 8,
+    id: 5,
     title: "Trousseau",
     description: "Implementação de PWA e melhorias de SEO em VTEX IO",
     imageUrl: "/logo-trousseau.png",
@@ -71,7 +47,7 @@ const projects = [
     category: "E-commerce",
   },
   {
-    id: 9,
+    id: 6,
     title: "Sephora",
     description: "Desenvolvimento de componentes personalizados em VTEX CMS",
     imageUrl: "/logo-sephora.png",
