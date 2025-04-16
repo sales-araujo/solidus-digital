@@ -54,10 +54,10 @@ export default function Header() {
               Sobre
             </a>
             <a
-              href="#parceiros"
+              href="#tecnologias"
               className="text-sm font-semibold leading-6 text-foreground hover:text-primary transition-colors"
             >
-              Parceiros
+              Tecnologias
             </a>
             <a
               href="#contato"

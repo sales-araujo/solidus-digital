@@ -1,7 +1,7 @@
 import Hero from "./components/Hero"
 import Cases from "./components/Cases"
 import AboutUs from "./components/AboutUs"
-import Partners from "./components/Partners"
+import Technologies from "./components/Technologies"
 import Timeline from "./components/Timeline"
 import ContactForm from "./components/ContactForm"
 
@@ -11,7 +11,7 @@ export default function Home() {
       <Hero />
       <Cases />
       <AboutUs />
-      <Partners />
+      <Technologies />
       <Timeline />
       <ContactForm />
     </>

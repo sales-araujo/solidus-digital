@@ -12,7 +12,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const menuItems = [
     { name: "Cases", href: "#cases" },
     { name: "Sobre", href: "#sobre" },
-    { name: "Parceiros", href: "#parceiros" },
+    { name: "Tecnologias", href: "#tecnologias" },
     { name: "Contato", href: "#contato" },
   ]
 
@@ -41,7 +41,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
 
   return (
     <motion.div
-      className="fixed inset-0 bg-background/95 backdrop-blur-md flex flex-col overflow-y-auto"
+      className="fixed inset-0 bg-background/95 backdrop-blur-md flex flex-col overflow-hidden"
       style={{ zIndex: 100 }}
       initial={{ x: "100%" }}
       animate={{ x: 0 }}

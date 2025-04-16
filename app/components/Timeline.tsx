@@ -41,10 +41,10 @@ const timelineEvents = [
   },
   {
     year: 2025,
-    title: "Parceria com eVision",
-    description: "Estabelecimento de parceria estratégica com a eVision.",
-    details:
-      "Formação de parceria estratégica com a eVision para oferecer soluções completas de e-commerce, combinando expertise técnica com estratégias de marketing digital.",
+    title: "Expansão de Parcerias Estratégicas",
+    description: "Fortalecimento de alianças com empresas líderes em e-commerce e marketing digital.",
+    details: 
+      "Expansão de parcerias estratégicas visando oferecer soluções integradas de e-commerce e estratégias de marketing digital.",
   },
 ]
 

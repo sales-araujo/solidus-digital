@@ -6,7 +6,7 @@ export default function Footer() {
           {[
             { name: "Cases", href: "#cases" },
             { name: "Sobre", href: "#sobre" },
-            { name: "Parceiros", href: "#parceiros" },
+            { name: "Tecnologias", href: "#tecnologias" },
             { name: "Contato", href: "#contato" },
           ].map((item) => (
             <div key={item.name} className="pb-6">
