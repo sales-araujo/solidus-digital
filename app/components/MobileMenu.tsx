@@ -14,6 +14,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
     { name: "Sobre", href: "#sobre" },
     { name: "Tecnologias", href: "#tecnologias" },
     { name: "Contato", href: "#contato" },
+    { name: "Política de Privacidade", href: "/privacy-policy" },
   ]
 
   const containerVariants = {

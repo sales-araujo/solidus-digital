@@ -2,12 +2,16 @@ export default function Footer() {
   return (
     <footer className="bg-background border-t border-border">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-12 sm:py-16 lg:px-8">
-        <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+        <nav
+          className="-mb-6 flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-12"
+          aria-label="Footer"
+        >
           {[
             { name: "Cases", href: "#cases" },
             { name: "Sobre", href: "#sobre" },
             { name: "Tecnologias", href: "#tecnologias" },
             { name: "Contato", href: "#contato" },
+            { name: "Política de Privacidade", href: "/privacy-policy" },
           ].map((item) => (
             <div key={item.name} className="pb-6">
               <a
