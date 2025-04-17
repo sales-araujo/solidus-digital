@@ -48,7 +48,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="mt-10 text-center text-sm leading-5 text-muted-foreground">
-          Conteúdo desenvolvido por Solidus Digital. Especialista em desenvolvimento VTEX.
+          Conteúdo desenvolvido por Solidus Digital.
           <br />© {new Date().getFullYear()} Solidus Digital. Todos os direitos reservados.
         </p>
       </div>

@@ -113,12 +113,12 @@ export default function Technologies() {
         </motion.div>
 
         <motion.div
-          className="mb-16 p-6 md:p-8 bg-gradient-to-r from-purple-900/20 via-primary/20 to-purple-900/20 rounded-2xl shadow-lg border border-primary/20"
+          className="mb-16 p-6 md:p-8 bg-gradient-to-r from-purple-900/20 via-primary/20 to-purple-900/20 rounded-2xl shadow-lg border border-primary/20 max-w-[786px] mx-auto"
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6 }}
         >
-          <div className="flex flex-col md:flex-row items-center gap-8">
+          <div className="flex flex-col items-center gap-8">
             <div className="md:w-1/3 flex justify-center">
               <motion.div
                 className="relative w-40 h-40 flex items-center justify-center rounded-full bg-gradient-to-br from-primary/20 to-purple-900/20 p-4"
@@ -135,13 +135,8 @@ export default function Technologies() {
                 <img src="/logo-vtex.png" alt="VTEX" className="w-24 h-24 object-contain" />
               </motion.div>
             </div>
-            <div className="md:w-2/3">
-              <h3 className="text-2xl font-bold text-foreground mb-4">Especialista em VTEX</h3>
-              <p className="text-muted-foreground mb-4">
-                Desenvolvimento avançado em todas as versões da plataforma VTEX, incluindo VTEX CMS, VTEX IO e VTEX
-                FastStore. Implementação de lojas completas, componentes personalizados e integrações.
-              </p>
-              <div className="flex flex-wrap gap-3">
+            <div className="md:w-2/3 flex justify-center">
+              <div className="flex flex-wrap gap-3 justify-center">
                 <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">VTEX CMS</span>
                 <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">VTEX IO</span>
                 <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">VTEX FastStore</span>
